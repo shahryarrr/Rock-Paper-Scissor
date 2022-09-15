@@ -1,1 +1,43 @@
-<div id="app"></div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="heading">ROCK PAPER SCISSORS</h1>
+      <div class="buttonWrap">
+        <button value="rock" class="choice">Rock</button>
+        <button value="paper" class="choice">Paper</button>
+        <button value="scissors" class="choice">Scissors</button>
+      </div>
+      <div class="answerWrapper">
+        <p>Player picks: <span id="player-choice"> </span></p>
+        <p>Computer picks: <span id="computer-choice"> </span></p>
+
+        <p>The winner is: <span id="winner"> </span></p>
+      </div>
+
+      <hr />
+            <div class="scoreboard">
+          <div>
+            <span>Computer Score: </span><span id="computer-score">0</span>
+          </div>
+
+          <div><span>Your Score: </span><span id="player-score">0</span></div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
